@@ -11,6 +11,52 @@ AAuraController::AAuraController()
 
 }
 
+void AAuraController::PlayerTick(float DeltaTime)
+{
+	Super::PlayerTick(DeltaTime);
+	CursorTrace(); 
+}
+
+void AAuraController::CursorTrace()
+{
+	FHitResult CursorHit;
+	GetHitResultUnderCursor(ECC_Visibility, false, CursorHit);
+	if (!CursorHit.bBlockingHit)	return;
+
+	LastActor = CurrentActor;
+	CurrentActor = Cast<IEnemyInterface>(CursorHit.GetActor());
+	if (LastActor == nullptr)	
+	{
+		if (CurrentActor != nullptr)
+		{
+			CurrentActor->HighlightActor();
+		}
+		else
+		{
+			//do nothing
+
+		}
+	}
+	else
+	{
+		if (CurrentActor == nullptr)
+		{
+			LastActor->UnHighlightActor();
+		}
+		else if (CurrentActor != LastActor)
+		{
+			LastActor->UnHighlightActor();
+			CurrentActor->HighlightActor();
+		}
+		else
+		{
+			//do nothing
+		}
+	}
+}
+
+
+
 void AAuraController::BeginPlay()
 {
 	Super::BeginPlay();
