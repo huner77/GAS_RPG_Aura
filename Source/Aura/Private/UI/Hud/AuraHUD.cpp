@@ -1,22 +1,18 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 
-#include "UI/Hud/AuraHUD.h"
+#include "UI/HUD/AuraHUD.h"
 
-#include "Blueprint/UserWidget.h"
-#include "UI/Widge/AuraUserWidget.h"
-#include "UI/WidgetController/OverlayAuraWidgetController.h"
+#include "UI/Widget/AuraUserWidget.h"
+#include "UI/WidgetController/OverlayWidgetController.h"
 
-
-UOverlayAuraWidgetController* AAuraHUD::GetOverlayWidgetController(const FWidgetControllerParams& WCParams)
+UOverlayWidgetController* AAuraHUD::GetOverlayWidgetController(const FWidgetControllerParams& WCParams)
 {
 	if (OverlayWidgetController == nullptr)
 	{
-		OverlayWidgetController=NewObject<UOverlayAuraWidgetController>(this, OverlayWidgetOverlayClass);
+		OverlayWidgetController = NewObject<UOverlayWidgetController>(this, OverlayWidgetControllerClass);
 		OverlayWidgetController->SetWidgetControllerParams(WCParams);
-
 		OverlayWidgetController->BindCallbacksToDependencies();
-
 		return OverlayWidgetController;
 	}
 	return OverlayWidgetController;
@@ -25,24 +21,16 @@ UOverlayAuraWidgetController* AAuraHUD::GetOverlayWidgetController(const FWidget
 void AAuraHUD::InitOverlay(APlayerController* PC, APlayerState* PS, UAbilitySystemComponent* ASC, UAttributeSet* AS)
 {
 	checkf(OverlayWidgetClass, TEXT("Overlay Widget Class uninitialized, please fill out BP_AuraHUD"));
-	checkf(OverlayWidgetOverlayClass, TEXT("Overlay Widget Controller uninitialized, please fill out BP_AuraHUD"))
+	checkf(OverlayWidgetControllerClass, TEXT("Overlay Widget Controller Class uninitialized, please fill out BP_AuraHUD"));
 	
 	UUserWidget* Widget = CreateWidget<UUserWidget>(GetWorld(), OverlayWidgetClass);
 	OverlayWidget = Cast<UAuraUserWidget>(Widget);
 	
 	const FWidgetControllerParams WidgetControllerParams(PC, PS, ASC, AS);
-	UOverlayAuraWidgetController* WidgetController = GetOverlayWidgetController(WidgetControllerParams);
+	UOverlayWidgetController* WidgetController = GetOverlayWidgetController(WidgetControllerParams);
 
 	OverlayWidget->SetWidgetController(WidgetController);
 	WidgetController->BroadcastInitialValues();
-	
 	Widget->AddToViewport();
 }
 
-void AAuraHUD::BeginPlay()
-{
-	Super::BeginPlay();
-
-
-	
-}

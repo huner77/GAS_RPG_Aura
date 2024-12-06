@@ -1,13 +1,16 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameFramework/HUD.h"
-#include "UI/WidgetController/OverlayAuraWidgetController.h"
 #include "AuraHUD.generated.h"
 
+class UAttributeSet;
+class UAbilitySystemComponent;
+class UOverlayWidgetController;
 class UAuraUserWidget;
+struct FWidgetControllerParams;
 /**
  * 
  */
@@ -15,29 +18,26 @@ UCLASS()
 class AURA_API AAuraHUD : public AHUD
 {
 	GENERATED_BODY()
-
 public:
 
 	UPROPERTY()
-	TObjectPtr<UAuraUserWidget> OverlayWidget;
+	TObjectPtr<UAuraUserWidget>  OverlayWidget;
 
-
-	UOverlayAuraWidgetController* GetOverlayWidgetController(const FWidgetControllerParams& WCParams);
+	UOverlayWidgetController* GetOverlayWidgetController(const FWidgetControllerParams& WCParams);
 
 	void InitOverlay(APlayerController* PC, APlayerState* PS, UAbilitySystemComponent* ASC, UAttributeSet* AS);
-	
 
 protected:
-	virtual void BeginPlay() override;
-	
+
+
 private:
 
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<UAuraUserWidget> OverlayWidgetClass;
 
 	UPROPERTY()
-	TObjectPtr<UOverlayAuraWidgetController> OverlayWidgetController;
+	TObjectPtr<UOverlayWidgetController> OverlayWidgetController;
 
 	UPROPERTY(EditAnywhere)
-	TSubclassOf<UOverlayAuraWidgetController> OverlayWidgetOverlayClass;
+	TSubclassOf<UOverlayWidgetController> OverlayWidgetControllerClass;
 };
