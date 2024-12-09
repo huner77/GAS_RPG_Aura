@@ -19,3 +19,5 @@ FAuraAttributeInfo UAttributeInfo::FindAttributeInfo(const FGameplayTag& Attribu
 	}
 	return FAuraAttributeInfo();
 }
+
+
