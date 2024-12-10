@@ -70,10 +70,7 @@ public:
 
 
 	TMap<FGameplayTag, TStaticFuncPtr<FGameplayAttribute()>> TagToAttributes;
-
-	TStaticFuncPtr<float(int32, float, int32)> RandomFunctionPointer;
-
-	static float RandomFunction(int32 I, float F, int32 I2){return 0.f;}
+	
 	
 
 	/*
