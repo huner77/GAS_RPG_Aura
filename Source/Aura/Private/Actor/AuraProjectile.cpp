@@ -5,6 +5,11 @@
 
 #include "Components/SphereComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
+#include "Kismet/GameplayStatics.h"
+#include "NiagaraFunctionLibrary.h"  // 用于调用 Niagara 函数
+#include "NiagaraSystem.h"           // 如果需要操作 Niagara 系统变量
+#include "Components/AudioComponent.h"
+
 
 // Sets default values
 AAuraProjectile::AAuraProjectile()
@@ -27,17 +32,51 @@ AAuraProjectile::AAuraProjectile()
 	ProjectileMovement->ProjectileGravityScale = 0.f;
 }
 
+
+
+
 // Called when the game starts or when spawned
 void AAuraProjectile::BeginPlay()
 {
 	Super::BeginPlay();
+	SetLifeSpan(LifeSpan);
 	Sphere->OnComponentBeginOverlap.AddDynamic(this, &AAuraProjectile::OnSphereOverlap);
+
+	LoopingSoundComponent = UGameplayStatics::SpawnSoundAttached(LoopingSound, GetRootComponent());
+}
+
+void AAuraProjectile::Destroyed()
+{
+	if (!bHit && !HasAuthority())
+	{
+		UGameplayStatics::PlaySoundAtLocation(this, ImpactSound, GetActorLocation(), FRotator::ZeroRotator);
+		UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, ImpactEffect, GetActorLocation());
+	}
+	Super::Destroyed();
+}
+
+void AAuraProjectile::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+	//UGameplayStatics::PlaySoundAtLocation(this, FlySound, GetActorLocation(), FRotator::ZeroRotator);
+
 }
 
 void AAuraProjectile::OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor,
-	UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+                                      UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
+	UGameplayStatics::PlaySoundAtLocation(this, ImpactSound, GetActorLocation(), FRotator::ZeroRotator);
+	UNiagaraFunctionLibrary::SpawnSystemAtLocation(this, ImpactEffect, GetActorLocation());
+	LoopingSoundComponent->Stop();
 	
+	if (HasAuthority())
+	{
+		Destroy();
+	}
+	else
+	{
+		bHit = true;
+	}
 }
 
 
