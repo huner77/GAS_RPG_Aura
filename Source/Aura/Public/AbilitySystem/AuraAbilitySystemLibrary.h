@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "UI/WidgetController/EnemyWidgetController.h"
 #include "AuraAbilitySystemLibrary.generated.h"
 
 class UAttributeMenuWidgetController;
@@ -22,4 +23,7 @@ public:
 
 	UFUNCTION(BlueprintPure, Category="AuraAbilitySystemLibrary|WidgetController")
 	static UAttributeMenuWidgetController* GetAttributeMenuWidgetController(const UObject* WorldContextObject);
+
+	/*UFUNCTION(BlueprintPure, Category="AuraAbilitySystemLibrary|WidgetController")
+	static UEnemyWidgetController* GetEnemyWidgetController(const UObject* WorldContextObject);*/
 };
