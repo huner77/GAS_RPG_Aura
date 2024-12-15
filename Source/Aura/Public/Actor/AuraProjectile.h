@@ -1,16 +1,15 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameplayEffectTypes.h"
 #include "GameFramework/Actor.h"
+#include "GameplayEffectTypes.h"
 #include "AuraProjectile.generated.h"
 
-struct FGameplayEffectSpecHandle;
-class UProjectileMovementComponent;
-class USphereComponent;
 class UNiagaraSystem;
+class USphereComponent;
+class UProjectileMovementComponent;
 
 UCLASS()
 class AURA_API AAuraProjectile : public AActor
@@ -18,7 +17,6 @@ class AURA_API AAuraProjectile : public AActor
 	GENERATED_BODY()
 	
 public:	
-	// Sets default values for this actor's properties
 	AAuraProjectile();
 
 	UPROPERTY(VisibleAnywhere)
@@ -26,25 +24,20 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, meta = (ExposeOnSpawn = true))
 	FGameplayEffectSpecHandle DamageEffectSpecHandle;
-	
+
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	virtual void Destroyed() override;
-	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION()
-	void OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp,int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
-
-
-
-
+	void OnSphereOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 private:
- 
+
 	UPROPERTY(EditDefaultsOnly)
 	float LifeSpan = 15.f;
-	
+
 	bool bHit = false;
+	
 	UPROPERTY(VisibleAnywhere)
 	TObjectPtr<USphereComponent> Sphere;
 

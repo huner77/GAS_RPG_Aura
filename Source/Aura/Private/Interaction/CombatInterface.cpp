@@ -1,4 +1,4 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 
 #include "Interaction/CombatInterface.h"
@@ -13,5 +13,3 @@ FVector ICombatInterface::GetCombatSocketLocation()
 {
 	return FVector();
 }
-
-

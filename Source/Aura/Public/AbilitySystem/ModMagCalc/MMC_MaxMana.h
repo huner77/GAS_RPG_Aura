@@ -1,4 +1,4 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 #pragma once
 
@@ -19,5 +19,6 @@ public:
 	virtual float CalculateBaseMagnitude_Implementation(const FGameplayEffectSpec& Spec) const override;
 
 private:
-	FGameplayEffectAttributeCaptureDefinition IntelligenceDef;
+
+	FGameplayEffectAttributeCaptureDefinition IntDef;
 };

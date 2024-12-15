@@ -1,4 +1,4 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 #pragma once
 
@@ -18,5 +18,6 @@ public:
 	static UAuraAssetManager& Get();
 
 protected:
+
 	virtual void StartInitialLoading() override;
 };

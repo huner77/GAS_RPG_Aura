@@ -1,22 +1,21 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 
 #include "Input/AuraInputConfig.h"
 
-const UInputAction* UAuraInputConfig::FindAbilityInputActionForTag(const FGameplayTag& InputTag,
-	bool bLogNotFound) const
+const UInputAction* UAuraInputConfig::FindAbilityInputActionForTag(const FGameplayTag& InputTag, bool bLogNotFound) const
 {
-	for (auto& InputAction : AbilityInputActions)
+	for (const FAuraInputAction& Action: AbilityInputActions)
 	{
-		if (InputAction.InputAction && InputTag.MatchesTag(InputAction.InputTag))
+		if (Action.InputAction && Action.InputTag == InputTag)
 		{
-			return InputAction.InputAction;
+			return Action.InputAction;
 		}
 	}
 
 	if (bLogNotFound)
 	{
-		UE_LOG(LogTemp, Error, TEXT("Cannot find AbilityInputAction for %s, on InputConfig[%s]"), *InputTag.ToString(),*GetNameSafe(this));
+		UE_LOG(LogTemp, Error, TEXT("Can't find AbilityInputAction for InputTag [%s], on InputConfig [%s]"), *InputTag.ToString(), *GetNameSafe(this));
 	}
 
 	return nullptr;

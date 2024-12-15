@@ -1,18 +1,21 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 #pragma once
 
 #include "CoreMinimal.h"
 #include "GameplayTagContainer.h"
+
 /**
- * 
+ * AuraGameplayTags
+ *
+ * Singleton containing native Gameplay Tags
  */
 
 struct FAuraGameplayTags
 {
 public:
-	static const FAuraGameplayTags& Get(){return GameplayTags;}
-	static void InitializeNativeGameplayTags();
+    static const FAuraGameplayTags& Get() { return GameplayTags;}
+    static void InitializeNativeGameplayTags();
 
 	FGameplayTag Attributes_Primary_Strength;
 	FGameplayTag Attributes_Primary_Intelligence;
@@ -30,18 +33,12 @@ public:
 	FGameplayTag Attributes_Secondary_MaxHealth;
 	FGameplayTag Attributes_Secondary_MaxMana;
 
-
 	FGameplayTag InputTag_LMB;
 	FGameplayTag InputTag_RMB;
 	FGameplayTag InputTag_1;
 	FGameplayTag InputTag_2;
 	FGameplayTag InputTag_3;
 	FGameplayTag InputTag_4;
-
-protected:
-
 private:
-	static FAuraGameplayTags GameplayTags;
+    static FAuraGameplayTags GameplayTags;
 };
-
-

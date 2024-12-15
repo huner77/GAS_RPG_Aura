@@ -6,7 +6,6 @@
 #include "Character/AuraCharacterBase.h"
 #include "Interaction/EnemyInterface.h"
 #include "UI/WidgetController/OverlayWidgetController.h"
-
 #include "AuraEnemy.generated.h"
 
 class UWidgetComponent;
@@ -25,7 +24,9 @@ public:
 	virtual void UnHighlightActor() override;
 	/** end Enemy Interface */
 
+	/** Combat Interface */
 	virtual int32 GetPlayerLevel() override;
+	/** end Combat Interface */
 
 	UPROPERTY(BlueprintAssignable)
 	FOnAttributeChangedSignature OnHealthChanged;
@@ -37,9 +38,7 @@ protected:
 	virtual void BeginPlay() override;
 	virtual void InitAbilityActorInfo() override;
 
-	
-	
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category= "Character Class Defaults")
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Character Class Defaults")
 	int32 Level = 1;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
