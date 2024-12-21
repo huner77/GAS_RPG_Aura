@@ -117,15 +117,23 @@ void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecuti
 		const FGameplayEffectAttributeCaptureDefinition CaptureDef = AuraDamageStatics().TagsToCaptureDefs[ResistanceTag];
 
 		float DamageTypeValue = Spec.GetSetByCallerMagnitude(Pair.Key);
-		
+	//	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT(" raw : %f  "),  DamageTypeValue ));
+
 		float Resistance = 0.f;
 		ExecutionParams.AttemptCalculateCapturedAttributeMagnitude(CaptureDef, EvaluationParameters, Resistance);
 		Resistance = FMath::Clamp(Resistance, 0.f, 100.f);
 
 		DamageTypeValue *= ( 100.f - Resistance ) / 100.f;
+
+		//DamageTypeValue *=10;
 		
 		Damage += DamageTypeValue;
+
+	//	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT(" %s : %f  "), *DamageTypeTag.ToString(), DamageTypeValue ));
+
 	}
+
+
 	
 	UCharacterClassInfo* CharacterClassInfo = UAuraAbilitySystemLibrary::GetCharacterClassInfo(SourceAvatar);
 
@@ -149,7 +157,9 @@ void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecuti
 
 
 	UAuraAbilitySystemLibrary::SetIsCriticalHit(EffectContextHandle, bCriticalHit);
-	
+
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("Critical Hit Damage: %f  "), Damage ));
+
 	
 	// BlockChance
 	float TargetBlockChance = 0.f;
@@ -159,10 +169,13 @@ void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecuti
 	const bool bBlocked = FMath::RandRange(1,100)<TargetBlockChance;
 	Damage = bBlocked ? Damage/2.f : Damage;
 
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("EffectiveCriticalHitChance: %f  TargetBlockChance %f"), EffectiveCriticalHitChance, TargetBlockChance));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("EffectiveCriticalHitChance: %f  TargetBlockChance %f"), EffectiveCriticalHitChance, TargetBlockChance));
 	
 	UAuraAbilitySystemLibrary::SetIsBlockedHit(EffectContextHandle, bBlocked);
+
+
 	
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("block Damage: %f  "), Damage ));
 	
 	// Armor Penetration
 	float TargetArmor = 0.f;
@@ -184,7 +197,8 @@ void UExecCalc_Damage::Execute_Implementation(const FGameplayEffectCustomExecuti
 
 
 
-	
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Blue, FString::Printf(TEXT("Armor Damage: %f  "), Damage ));
+
 
 	
 
