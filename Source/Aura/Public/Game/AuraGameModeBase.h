@@ -14,9 +14,7 @@ UCLASS()
 class AURA_API AAuraGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-
-	
 public:
-	UPROPERTY(EditDefaultsOnly, Category="Character Class Defaults")
+	UPROPERTY(EditDefaultsOnly, Category = "Character Class Defaults")
 	TObjectPtr<UCharacterClassInfo> CharacterClassInfo;
 };

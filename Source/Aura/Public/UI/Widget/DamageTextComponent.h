@@ -1,4 +1,4 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 #pragma once
 
@@ -15,5 +15,5 @@ class AURA_API UDamageTextComponent : public UWidgetComponent
 	GENERATED_BODY()
 public:
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
-	void SetDamageText(float Damage,  bool bBlickedHit, bool bCriticalHit);
+	void SetDamageText(float Damage, bool bBlockedHit, bool bCriticalHit);
 };

@@ -1,4 +1,4 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 #pragma once
 

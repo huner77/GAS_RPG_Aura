@@ -1,4 +1,4 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 
 #include "AI/BTTask_Attack.h"

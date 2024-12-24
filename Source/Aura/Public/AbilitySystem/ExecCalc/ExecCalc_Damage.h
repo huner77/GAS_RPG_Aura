@@ -1,4 +1,4 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 #pragma once
 
@@ -13,7 +13,6 @@ UCLASS()
 class AURA_API UExecCalc_Damage : public UGameplayEffectExecutionCalculation
 {
 	GENERATED_BODY()
-
 public:
 	UExecCalc_Damage();
 
