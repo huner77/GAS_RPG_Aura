@@ -186,12 +186,26 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 		FString("Effects HitReact")
 		);
 
+/*
+ * Ability
+ */
+
 	
 	GameplayTags.Abilities_Attack = UGameplayTagsManager::Get().AddNativeGameplayTag(
 	FName("Abilities.Attack"),
 	FString("Attack Ability Tag")
 	);
 
+	GameplayTags.Abilities_Summon = UGameplayTagsManager::Get().AddNativeGameplayTag(
+	FName("Abilities.Summon"),
+	FString("Summon Ability Tag")
+	);
+
+
+/*
+ *Combat Sockets
+ */
+	
 	
 	GameplayTags.CombatSocket_Weapon = UGameplayTagsManager::Get().AddNativeGameplayTag(
 	FName("CombatSocket.Weapon"),
@@ -208,6 +222,11 @@ void FAuraGameplayTags::InitializeNativeGameplayTags()
 	FString("Left Hand")
 	);
 
+		GameplayTags.CombatSocket_LeftHand = UGameplayTagsManager::Get().AddNativeGameplayTag(
+	FName("CombatSocket.Tail"),
+	FString("Tail")
+	);
+	
 
 	GameplayTags.Montage_Attack_1 = UGameplayTagsManager::Get().AddNativeGameplayTag(
 	FName("Montage.Attack.1"),
