@@ -1,4 +1,4 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 
 #include "AbilitySystem/Data/AbilityInfo.h"
@@ -17,7 +17,8 @@ FAuraAbilityInfo UAbilityInfo::FindAbilityInfoForTag(const FGameplayTag& Ability
 
 	if (bLogNotFound)
 	{
-		UE_LOG(LogAura, Error, TEXT("Cannot find info for %s"), * AbilityTag.ToString());
+		UE_LOG(LogAura, Error, TEXT("Can't find info for AbilityTag [%s] on AbilityInfo [%s]"), *AbilityTag.ToString(), *GetNameSafe(this));
 	}
+
 	return FAuraAbilityInfo();
 }

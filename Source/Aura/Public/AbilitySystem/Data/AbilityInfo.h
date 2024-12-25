@@ -1,10 +1,10 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameplayTagContainer.h"
 #include "Engine/DataAsset.h"
+#include "GameplayTagContainer.h"
 #include "AbilityInfo.generated.h"
 
 USTRUCT(BlueprintType)
@@ -19,12 +19,14 @@ struct FAuraAbilityInfo
 	FGameplayTag InputTag = FGameplayTag();
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-	TObjectPtr<UTexture2D> Icon = nullptr;
+	FGameplayTag CooldownTag = FGameplayTag();
 
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-	TObjectPtr<UMaterialInterface> BackgroundMaterial = nullptr;
-};
+	TObjectPtr<const UTexture2D> Icon = nullptr;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+	TObjectPtr<const UMaterialInterface> BackgroundMaterial = nullptr;
+};
 
 /**
  * 
@@ -33,9 +35,9 @@ UCLASS()
 class AURA_API UAbilityInfo : public UDataAsset
 {
 	GENERATED_BODY()
-
 public:
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category="AbilityInformation")
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "AbilityInformation")
 	TArray<FAuraAbilityInfo> AbilityInformation;
 
 	FAuraAbilityInfo FindAbilityInfoForTag(const FGameplayTag& AbilityTag, bool bLogNotFound = false) const;
