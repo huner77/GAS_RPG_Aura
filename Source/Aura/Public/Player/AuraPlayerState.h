@@ -8,11 +8,11 @@
 #include "AuraPlayerState.generated.h"
 
 
-class ULevelUpInfo;
 class UAbilitySystemComponent;
 class UAttributeSet;
+class ULevelUpInfo;
 
-DECLARE_MULTICAST_DELEGATE_OneParam(FOnPlayerStateChanged, int32)
+DECLARE_MULTICAST_DELEGATE_OneParam(FOnPlayerStatChanged, int32 /*StatValue*/)
 
 /**
  * 
@@ -29,22 +29,18 @@ public:
 
 	UPROPERTY(EditDefaultsOnly)
 	TObjectPtr<ULevelUpInfo> LevelUpInfo;
-	
-	
-	
-	FOnPlayerStateChanged OnXPChangedDelegate;
-	FOnPlayerStateChanged OnLevelChangedDelegate;
 
-	
+	FOnPlayerStatChanged OnXPChangedDelegate;
+	FOnPlayerStatChanged OnLevelChangedDelegate;
+
 	FORCEINLINE int32 GetPlayerLevel() const { return Level; }
 	FORCEINLINE int32 GetXP() const { return XP; }
 
-
-	void SetXP(int32 NewXP) ;
-	void SetLevel(int32 NewLevel);
+	void AddToXP(int32 InXP);
+	void AddToLevel(int32 InLevel);
 	
-	void AddToXP(int32 NewXP);
-	void AddToLevel(int32 NewLevel);
+	void SetXP(int32 InXP);
+	void SetLevel(int32 InLevel);
 	
 protected:
 	
@@ -60,7 +56,7 @@ private:
 	int32 Level = 1;
 
 	UPROPERTY(VisibleAnywhere, ReplicatedUsing=OnRep_XP)
-	int32 XP = 0;
+	int32 XP = 1;
 	
 	UFUNCTION()
 	void OnRep_Level(int32 OldLevel);

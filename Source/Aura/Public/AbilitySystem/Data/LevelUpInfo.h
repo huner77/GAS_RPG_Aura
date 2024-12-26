@@ -1,4 +1,4 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 #pragma once
 
@@ -10,17 +10,15 @@ USTRUCT(BlueprintType)
 struct FAuraLevelUpInfo
 {
 	GENERATED_BODY()
-	
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-	int32 AttributePointReWard = 1;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-	int32 SpellPointReward = 1;
+	UPROPERTY(EditDefaultsOnly)
+	int32 LevelUpRequirement = 0;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
-	int32 LevelUpRequirement = 300;
+	UPROPERTY(EditDefaultsOnly)
+	int32 AttributePointAward = 1;
 
-
+	UPROPERTY(EditDefaultsOnly)
+	int32 SpellPointAward = 1;
 };
 
 /**
@@ -31,7 +29,8 @@ class AURA_API ULevelUpInfo : public UDataAsset
 {
 	GENERATED_BODY()
 public:
-	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+
+	UPROPERTY(EditDefaultsOnly)
 	TArray<FAuraLevelUpInfo> LevelUpInformation;
 
 	int32 FindLevelForXP(int32 XP) const;

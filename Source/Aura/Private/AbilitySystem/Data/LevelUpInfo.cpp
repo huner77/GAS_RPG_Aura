@@ -1,24 +1,26 @@
-// Copyright huner
+// Copyright Druid Mechanics
 
 
 #include "AbilitySystem/Data/LevelUpInfo.h"
 
 int32 ULevelUpInfo::FindLevelForXP(int32 XP) const
 {
-	int32 level = 1;
-	bool bSearch = true;
-	while (bSearch)
+	int32 Level = 1;
+	bool bSearching = true;
+	while (bSearching)
 	{
-		if (LevelUpInformation.Num()-1 <=level)	return level;
+		// LevelUpInformation[1] = Level 1 Information
+		// LevelUpInformation[2] = Level 1 Information
+		if (LevelUpInformation.Num() - 1 <= Level) return Level;
 
-		if (XP>=LevelUpInformation[level].LevelUpRequirement)
+		if (XP >= LevelUpInformation[Level].LevelUpRequirement)
 		{
-			++level;
+			++Level;
 		}
 		else
 		{
-			bSearch = false;
+			bSearching = false;
 		}
 	}
-	return level;
+	return Level;
 }
