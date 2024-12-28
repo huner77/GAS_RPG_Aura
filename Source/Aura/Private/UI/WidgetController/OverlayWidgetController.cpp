@@ -28,10 +28,8 @@ void UOverlayWidgetController::BindCallbacksToDependencies()
 		[this](int32 NewLevel)
 		{
 			OnPlayerLevelChangedDelegate.Broadcast(NewLevel);
-		});
-
-
-
+		}
+	);
 	
 	const UAuraAttributeSet* AuraAttributeSet = CastChecked<UAuraAttributeSet>(AttributeSet);
 	
