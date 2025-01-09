@@ -7,57 +7,373 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67e8459f-ca81-4fce-89cf-3c95cf2dbe03" name="更改" comment="">
+    <list default="true" id="3a74a0b6-55ec-402b-ba07-a4fc5605c65a" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aura.sln.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Aura.uproject.DotSettings.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGameplayTags.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Characters/Aura/Animations/Abilities/AM_Cast_ArcaneShards.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Characters/Aura/Animations/Abilities/AM_Cast_Electrocute.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Characters/Aura/Animations/Abilities/AM_Cast_FireBolt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Characters/Aura/Animations/Abilities/AM_Cast_FireBolt.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Characters/Aura/Animations/AuraPose.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Characters/Aura/Animations/InAir.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_Emissive.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_Emissive.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/Material/Beacon_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/Material/MI_Beacon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/Material/MI_Beacon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/Material/M_Beacon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/Material/M_Beacon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/SM_Beacon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/SM_Beacon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/SM_Pillar.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Beacon/SM_Pillar.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_Emissive.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_Emissive.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/Material/Checkpoint_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/Material/MI_Checkpoint.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/Material/MI_Checkpoint.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/Material/M_Checkpoint.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/Material/M_Checkpoint.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/SM_Checkpoint.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Checkpoint/SM_Checkpoint.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/CornerSmall/M_CornerSmall.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/CornerSmall/T_SmallCorner_Base.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/CornerSmall/T_SmallCorner_Norm.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/CornerSmall/T_SmallCorner_OcclusionRoughnessMetallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/M_Stairs_ColumnsRims.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/M_Stairs_ColumnsRims.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/M_Stairs_Pillars.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/M_Stairs_Pillars.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/M_Stairs_Rail.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/M_Stairs_Rail.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/M_Stairs_Steps.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/M_Stairs_Steps.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/columns_rims_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/columns_rims_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/columns_rims_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/columns_rims_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/columns_rims_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/columns_rims_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/pillars_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/pillars_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/pillars_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/pillars_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/pillars_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/pillars_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/rail_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/rail_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/rail_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/rail_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/rail_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/rail_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/steps_wall_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/steps_wall_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/steps_wall_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/steps_wall_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/steps_wall_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Stairs/steps_wall_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1/M_Tileset1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1/M_Tileset1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1/Tileset1_low_DefaultMaterial_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1/Tileset1_low_DefaultMaterial_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1/Tileset1_low_DefaultMaterial_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1/Tileset1_low_DefaultMaterial_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1/Tileset1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1/Tileset1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/M_Tilese1x1_2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/M_Tilese1x1_2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/Tileset1x1_low_DefaultMaterial_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/Tileset1x1_low_DefaultMaterial_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/Tileset1x1_low_DefaultMaterial_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/Tileset1x1_low_DefaultMaterial_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/Tileset1x1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tilese1x1_2/Tileset1x1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/M_Tileset1x1_1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/M_Tileset1x1_1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/Tileset1x1_low_DefaultMaterial_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/Tileset1x1_low_DefaultMaterial_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/Tileset1x1_low_DefaultMaterial_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/Tileset1x1_low_DefaultMaterial_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/Tileset1x1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset1x1/Tileset1x1_1/Tileset1x1_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset2/M_Tileset2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset2/M_Tileset2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset2/Tileset2_low_DefaultMaterial_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset2/Tileset2_low_DefaultMaterial_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset2/Tileset2_low_DefaultMaterial_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset2/Tileset2_low_DefaultMaterial_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset2/Tileset2_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset2/Tileset2_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset3/M_Tileset3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset3/M_Tileset3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset3/Tileset3_low_DefaultMaterial_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset3/Tileset3_low_DefaultMaterial_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset3/Tileset3_low_DefaultMaterial_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset3/Tileset3_low_DefaultMaterial_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset3/Tileset3_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/Tileset3/Tileset3_low_DefaultMaterial_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Balusters.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Balusters.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Rail.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Rail.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Step.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Step.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Wall.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/M_Inner_Wall.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_step_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_step_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_step_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_step_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_step_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_step_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_wall_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_wall_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_wall_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_wall_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_wall_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_Corner_wall_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Balusters_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Balusters_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Balusters_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Balusters_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Balusters_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Balusters_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Rail_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Rail_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Rail_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Rail_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Rail_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCornerInner/TileCornerInner_low_M_Rail_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Balusters.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Base.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Rail.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Step.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Wall.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Wall_fade.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/M_TilesetCorner_Wall_fade_Inst.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Balusters_BaseColor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Balusters_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Balusters_OcclusionRoughnessMetallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Base_BaseColor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Base_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Base_OcclusionRoughnessMetallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Rail_BaseColor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Rail_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Rail_OcclusionRoughnessMetallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Step_BaseColor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Step_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Step_OcclusionRoughnessMetallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Wall_BaseColor.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Wall_Normal.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetCorner_fixedlighting/T_Corner_Wall_OcclusionRoughnessMetallic.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_balusters.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_balusters.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_base.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_base.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_rail.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_rail.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_step.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_step.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_wall.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/M_Edge_wall.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_base_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_base_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_base_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_base_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_base_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_base_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_step_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_step_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_step_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_step_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_step_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_step_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_wall_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_wall_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_wall_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_wall_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_wall_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_Corner_wall_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Balusters_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Balusters_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Balusters_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Balusters_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Balusters_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Balusters_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Rail_BaseColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Rail_BaseColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Rail_Normal.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Rail_Normal.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Rail_OcclusionRoughnessMetallic.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/Materials/TilesetEdge/Tileset_Edge_low_M_Rail_OcclusionRoughnessMetallic.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Block2x2x1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Block2x3x1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Block3x3x1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Block4x3x1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Block4x4x1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Block_1x1x1.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Block_1x1x2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Block_1x1x3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Block_1x1x4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_CombinedEdges.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_CornerInner_norail.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_CornerInner_norail.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_CornerSmall.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_CornerSmall_nostep.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_CornerSmall_nostep_norail.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_CornerSmall_outer.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_CornerSmall_rail.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_Inner.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_Inner.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_Inner_nobase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_Inner_nobase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_Outer_norail.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_Outer_norail.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_nobase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_nobase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_railing.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_railing.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_wall_short.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_wall_short.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_wall_tall.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Corner_wall_tall.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_DungeonEntrance_Doorway.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_DungeonEntrance_Stair.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Edge_2x1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Edge_2x1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Edge_2x2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Edge_2x2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_FloorCorner.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_FloorCorner.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Stairs.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Stairs.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Stairs_L.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Stairs_L.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Stairs_R.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Stairs_R.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Stairs_nobottom.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Stairs_nobottom.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Stairs_nobottom_L.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Stairs_nobottom_L.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Stairs_nobottom_R.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Stairs_nobottom_R.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile1x1_A.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile1x1_A.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile1x1_B.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile1x1_B.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_1x2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_1x2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_1x3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_1x3a.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_1x4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_1x4_a.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_1x6.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_2x2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_2x2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_2x2x2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_2x2x2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_2x3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_2x4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_3x2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_3x2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_3x2x2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_3x2x2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_3x3_A.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_3x3_A.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_3x3_B.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_3x3_B.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_3x3x2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_3x3x2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_3x3x3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_3x3x3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_4x4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_4x4_a.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_5x5.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_6x3.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_6x6.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Tile_6x9.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_TilesetEdge.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_TilesetEdge.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_TilesetEdge_nobase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_TilesetEdge_nobase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_TilesetEdge_nobase_2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_TilesetEdge_nobase_4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Wall_2x1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Wall_2x1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Wall_2x2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Wall_2x2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Wall_4x2.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Wall_4x2.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Dungeon/SM_Wall_U.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Effects/ArcaneShards/NS_ArcaneShards.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Effects/ArcaneShards/NS_ArcaneShards.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Effects/Fire/NS_Fire.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Effects/Fire/NS_Fire.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Effects/Projectiles/FireBolt/NS_Fire_3.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Effects/Projectiles/FireBolt/NS_Fire_3.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Effects/Projectiles/FireBolt/NS_Fire_4.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Effects/Projectiles/FireBolt/NS_Fireball.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Effects/Projectiles/FireBolt/NS_Fireball.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Effects/Projectiles/FireExplosion/NS_FireExplosion.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Effects/Projectiles/FireExplosion/NS_FireExplosion.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Effects/Projectiles/FireExplosion/NS_FireExplosion1.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Effects/Projectiles/FireExplosion/NS_FireExplosion1.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Effects/Shock/NS_ElectricBeam.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Effects/Shock/NS_ElectricBeam.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Effects/Stun/NS_Halo.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Effects/Stun/NS_LifeSiphon.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Effects/Stun/NS_ManaSiphon.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Effects/Stun/NS_Stars.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Effects/Stun/NS_Stars.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Demon/Animations/DemonShockLoop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Demon/SKM_Demon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Enemies/Demon/SKM_Demon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Demon/SK_Demon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Enemies/Demon/SK_Demon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_L.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_R.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Enemies/Ghoul/Animations/AM_Ghoul_Attack_R.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Ghoul/Animations/ShockLoop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/Animations/Slingshot/AM_Attack_Goblin_Slingshot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/Animations/Slingshot/AM_Attack_Goblin_Slingshot.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/Animations/Slingshot/AM_HitReact_GoblinSlingshot.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/Animations/Slingshot/AM_HitReact_GoblinSlingshot.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/Animations/Spear/AM_Attack_GoblinSpear.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/Animations/Spear/AM_Attack_GoblinSpear.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/Animations/Spear/AM_HitReact_GoblinSpear.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/Animations/Spear/AM_HitReact_GoblinSpear.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/Animations/Spear/HitReact_Spear_cut.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Goblin/Animations/Spear/ShockLoop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Shaman/Animations/AM_Attack_Shaman.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Enemies/Shaman/Animations/AM_Attack_Shaman.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Enemies/Shaman/Animations/Shaman_ShockLoop.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/MagicCircles/MI_MagicCircle_MainMenu.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/MagicCircles/MI_MagicCircle_blue.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Materials/PP_Highlight.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Materials/PP_Highlight.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/Sounds/Music/Music_MainMenu.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Globes/MI_ArcaneSkillBG.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/UI/Globes/MI_ArcaneSkillBG.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Globes/MI_HaloSkillBG.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Globes/MI_LifeSiphonSkillBG.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Globes/MI_LoadSlot_BG.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Globes/MI_ManaSiphonSkillBG.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Globes/MI_ShockSkillBG.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/UI/Globes/MI_ShockSkillBG.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Globes/M_LoadSlot_BG.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/LoadScreen/PlusIcon_clearBG.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/UI/LoadScreen/PlusIcon_clearBG.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Spells/ArcaneBlast.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Spells/ArcaneShards2.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Spells/ArcaneStorm.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Spells/BallLightning.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Spells/FireBlast.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Spells/FireNado.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Spells/Halo.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Spells/LifeSiphon.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/UI/Spells/LightningStorm.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/BluePrints/Game/BP_AuraGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/BluePrints/Game/BP_AuraGameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Aura/Abilities/Fire/FireBolt/GA_FireBolt.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Aura/Abilities/Fire/FireBolt/GA_FireBolt.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Aura/Abilities/Passive_Startup/GA_ListenForEvent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Aura/Abilities/Passive_Startup/GA_ListenForEvent.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Aura/Abilities/Passive_Startup/GE_EventBasedEffect.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Aura/Abilities/Passive_Startup/GE_EventBasedEffect.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Data/CT_Damage.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Data/CT_Damage.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Data/DA_AbilityInfo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Data/DA_AbilityInfo.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/AttributeMenu/WBP_TextValueButtonRow.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/AttributeMenu/WBP_TextValueRow.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Button/WBP_Button.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Button/WBP_Button.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Button/WBP_WideButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Button/WBP_WideButton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/HUD/BP_AuraHud.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/HUD/BP_AuraHud.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Overlay/Subwidget/WBP_HealthManaSpells.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/Overlay/WBP_Overlay.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/SpellGlobes/WBP_SpellGlobe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/SpellGlobes/WBP_SpellGlobe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/SpellGlobes/WBP_ValueGlobe.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/SpellGlobes/WBP_ValueGlobe.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/WidgetController/BP_AttributeMenuWidgetController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/WidgetController/BP_AttributeMenuWidgetController.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Maps/Dungeon.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Dungeon.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/CT_Damage.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/CT_PrimaryAttributes_Elementalist.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/CT_PrimaryAttributes_Elementalist.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/CT_PrimaryAttributes_Elementalist.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/CT_PrimaryAttributes_Ranger.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Data/CT_PrimaryAttributes_Ranger.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/CT_PrimaryAttributes_Warrior.json" beforeDir="false" afterPath="$PROJECT_DIR$/Data/CT_PrimaryAttributes_Warrior.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RD.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RD.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderBlueprint.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderBlueprint.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderDebuggerSupport.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderDebuggerSupport.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderGameControl.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderGameControl.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLC.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLC.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLink.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLink.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLogging.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderLogging.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderShaderInfo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Binaries/Win64/UnrealEditor-RiderShaderInfo.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RD/Default.rc2.res" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RD/Default.rc2.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RD/Default.rc2.res.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RD/Default.rc2.res.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RD/Default.rc2.res.rsp.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RD/UnrealEditor-RD.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RD/UnrealEditor-RD.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/Default.rc2.res" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/Default.rc2.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/Default.rc2.res.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/Default.rc2.res.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/Default.rc2.res.rsp.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/UnrealEditor-RiderBlueprint.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderBlueprint/UnrealEditor-RiderBlueprint.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderDebuggerSupport/Default.rc2.res" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderDebuggerSupport/Default.rc2.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderDebuggerSupport/Default.rc2.res.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderDebuggerSupport/Default.rc2.res.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderDebuggerSupport/Default.rc2.res.rsp.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderDebuggerSupport/UnrealEditor-RiderDebuggerSupport.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderDebuggerSupport/UnrealEditor-RiderDebuggerSupport.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderGameControl/Default.rc2.res" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderGameControl/Default.rc2.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderGameControl/Default.rc2.res.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderGameControl/Default.rc2.res.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderGameControl/Default.rc2.res.rsp.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderGameControl/UnrealEditor-RiderGameControl.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderGameControl/UnrealEditor-RiderGameControl.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLC/Default.rc2.res" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLC/Default.rc2.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLC/Default.rc2.res.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLC/Default.rc2.res.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLC/Default.rc2.res.rsp.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLC/UnrealEditor-RiderLC.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLC/UnrealEditor-RiderLC.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLink/Default.rc2.res" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLink/Default.rc2.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLink/Default.rc2.res.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLink/Default.rc2.res.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLink/Default.rc2.res.rsp.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLink/UnrealEditor-RiderLink.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLink/UnrealEditor-RiderLink.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Default.rc2.res" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Default.rc2.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Default.rc2.res.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Default.rc2.res.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/Default.rc2.res.rsp.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/UnrealEditor-RiderLogging.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderLogging/UnrealEditor-RiderLogging.exp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderShaderInfo/Default.rc2.res" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderShaderInfo/Default.rc2.res" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderShaderInfo/Default.rc2.res.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderShaderInfo/Default.rc2.res.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderShaderInfo/Default.rc2.res.rsp.old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderShaderInfo/UnrealEditor-RiderShaderInfo.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/Build/Win64/x64/UnrealEditor/Development/RiderShaderInfo/UnrealEditor-RiderShaderInfo.exp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Plugins/Developer/RiderLink/Intermediate/FileSystemMappings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/Abilities/AuraDamageGameplayAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/Abilities/AuraDamageGameplayAbility.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/Abilities/AuraGameplayAbility.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/Abilities/AuraGameplayAbility.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAbilitySystemComponent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAbilitySystemComponent.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAbilitySystemLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAbilitySystemLibrary.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAttributeSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAttributeSet.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AuraGameplayTags.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/AuraGameplayTags.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Character/AuraCharacter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Character/AuraCharacter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/UI/Hud/AuraHUD.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/UI/Hud/AuraHUD.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Aura/Private/UI/WidgetController/AttributeMenuWidgetController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/UI/WidgetController/AttributeMenuWidgetController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/UI/WidgetController/AuraWidgetController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/UI/WidgetController/AuraWidgetController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/UI/WidgetController/OverlayWidgetController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/UI/WidgetController/OverlayWidgetController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/Abilities/AuraDamageGameplayAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/Abilities/AuraDamageGameplayAbility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/Abilities/AuraGameplayAbility.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/Abilities/AuraGameplayAbility.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/Abilities/AuraProjectileSpell.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/Abilities/AuraProjectileSpell.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/AuraAbilitySystemComponent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/AuraAbilitySystemComponent.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/AuraAbilitySystemLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/AuraAbilitySystemLibrary.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/AuraAttributeSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/AuraAttributeSet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Character/AuraCharacter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Character/AuraCharacter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/Data/AbilityInfo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/Data/AbilityInfo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AuraGameplayTags.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/AuraGameplayTags.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Game/AuraGameModeBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Game/AuraGameModeBase.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Interaction/PlayerInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Interaction/PlayerInterface.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/Player/AuraPlayerState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/Player/AuraPlayerState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/UI/Hud/AuraHUD.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/UI/Hud/AuraHUD.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Aura/Public/UI/WidgetController/AttributeMenuWidgetController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/UI/WidgetController/AttributeMenuWidgetController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/UI/WidgetController/AuraWidgetController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/UI/WidgetController/AuraWidgetController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/UI/WidgetController/OverlayWidgetController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/UI/WidgetController/OverlayWidgetController.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DpaMonitoringSettings">
-    <option name="firstShow" value="false" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;customColor&quot;: &quot;&quot;,
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2qnqaMmwSvS3QXYCUi4qxDXYCS7" />
+  <component name="HighlightingSettingsPerFile">
+    <setting file="cidr-memory-view://0" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2rNKzSYu3SsyhZctfdft0NoJFG6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Uproject.Aura.executor&quot;: &quot;Debug&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Uproject.Aura.executor": "Debug",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Aura" type="Uproject" factoryName="rider.uproject">
       <configuration_1 setup="1">
@@ -136,13 +452,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
-      <changelist id="67e8459f-ca81-4fce-89cf-3c95cf2dbe03" name="更改" comment="" />
-      <created>1735308752096</created>
+      <changelist id="3a74a0b6-55ec-402b-ba07-a4fc5605c65a" name="更改" comment="" />
+      <created>1736394358817</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1735308752096</updated>
-      <workItem from="1735308753706" duration="1602000" />
-      <workItem from="1735783380657" duration="4188000" />
+      <updated>1736394358817</updated>
+      <workItem from="1736394361115" duration="381000" />
     </task>
     <servers />
   </component>

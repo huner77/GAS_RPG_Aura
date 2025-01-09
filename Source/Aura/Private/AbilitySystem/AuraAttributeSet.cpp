@@ -199,7 +199,6 @@ void UAuraAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallba
 				bTopOffHealth = true;
 				bTopOffMana = true;
 				
-				
 				IPlayerInterface::Execute_LevelUp(Props.SourceCharacter);
 			}
 			
@@ -212,7 +211,7 @@ void UAuraAttributeSet::PostAttributeChange(const FGameplayAttribute& Attribute,
 {
 	Super::PostAttributeChange(Attribute, OldValue, NewValue);
 
-	if (Attribute ==  GetMaxHealthAttribute() && bTopOffHealth)
+	if (Attribute == GetMaxHealthAttribute() && bTopOffHealth)
 	{
 		SetHealth(GetMaxHealth());
 		bTopOffHealth = false;
