@@ -1,8 +1,6 @@
-# Aura
 
-Demo如下：
+# GAS RPG Aura Demo
 
-<video width="100%" height="auto" autoplay>
-  <source src="demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+这是项目的一个演示视频，点击下面的图片观看：
+
+[![Demo Video](https://img.shields.io/badge/Watch%20Demo%20Video-Click%20Here-blue)](https://github.com/your-username/GAS_RPG_Aura/blob/main/demo.mp4)
